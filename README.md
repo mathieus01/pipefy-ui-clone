@@ -1,68 +1,93 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+	<img alt="NextLevelWeek" title="#NextLevelWeek" src="./.github/logo.png" style="height: 216px;" />
+</h1>
 
-## Available Scripts
+<h4 align="center"> 
+	Pipefy -UI - Clone 💻 Concluído 🚀 
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-95.3%25-blue">
+  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet">
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#boom-como-executar">Como Executar</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+👨🏽‍💻 Pipefy - UI - Clone - é um clone de interface do aplicativo Pipefy
 
-### `yarn test`
+Projeto desenvolvido durante uma video aula **Recriando Pipefy do zero (com drag n' drop)** oferecida pela [Rocketseat](https://www.youtube.com/watch?v=awRtgpRsdTQ&t=1865s).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## ⚙️ Funcionalidades
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Interface do Discord
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Layout
 
-### `yarn eject`
+O layout da aplicação:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
+	<img alt="NextLevelWeek" title="#NextLevelWeek" src="./.github/dashboard.png" style="height: 400px;" />
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 Como executar o projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Pré-requisitos
 
-## Learn More
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 🧭 Rodando a aplicação web (Frontend)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
 
-### Code Splitting
+# Clone este repositório
+$ git clone git@github.com:mathieus01/discord-ui-clone.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd discord-ui-clone
 
-### Analyzing the Bundle Size
+# Instale as dependências
+$ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-### Making a Progressive Web App
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## 🛠 Tecnologias
 
-### Deployment
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
-### `yarn build` fails to minify
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 🦸 Autor
+
+ <img style="border-radius: 50%;" src="https://instagram.fbsb10-1.fna.fbcdn.net/v/t51.2885-15/e35/75388583_146956426561379_7918283599763404264_n.jpg?_nc_ht=instagram.fbsb10-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=H4L5xlLdW78AX8YA1tX&_nc_tp=18&oh=0dedc2d0a58e2efa33633c88e8c62740&oe=5F9955AE" width="100px;" alt=""/>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Matheus_Nunes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mnunesth/)](https://www.linkedin.com/in/tgmarinho/)
+[![Gmail Badge](https://img.shields.io/badge/-mathieusnunes@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathieusnunes@gmail.com)](mailto:tgmarinho@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
